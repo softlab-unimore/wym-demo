@@ -1,0 +1,15 @@
+,id,left_id,right_id,label,left_Beer_Name,left_Brew_Factory_Name,left_Style,left_ABV,right_Beer_Name,right_Brew_Factory_Name,right_Style,right_ABV
+3,3,3917,2224,1,honey basil amber,rude hippo brewing company,american amber red ale,7.40,rude hippo honey basil amber,18th street brewery,amber ale,7.40
+6,6,271,1410,1,real mccoy amber ale,mammoth brewing company,american amber red ale,4.50,mammoth real mccoy amber ale,mammoth brewing company,altbier,4.50
+10,10,1780,685,1,jazz beer tarraco amber,tarraco beer,american amber red ale,6.90,jazz beer tarraco amber,ca laarenys cervezas guineu,amber ale,6.90
+29,29,2558,1284,1,arrow point amber,bainbridge island brewing company,american amber red ale,5.40,bainbridge island arrow point amber,bainbridge island brewing company,amber ale,5.40
+42,42,563,1177,1,amber waves ale,capitol city brewing,american amber red ale,5.40,capitol city amber waves ale,capitol city brewing company,amber ale,5.60
+51,51,1621,548,1,red rocket amber ale,third base sports bar brewery,american amber red ale,6.40,third base red rocket amber ale,third base sports bar brewery,amber ale,4.60
+55,55,2007,203,1,bushfire american red,granite falls brewing co .,american amber red ale,5.00,granite falls bushfire american red ale,granite falls brewing company,amber ale,5
+65,65,1042,55,1,legends of the bay giant 's tomb,hockley valley brewing co .,american amber red ale,5.00,legends of the bay giantas tomb,hockley valley brewing malting company,amber ale,5
+73,73,3381,1859,1,willoughby american amber ale,willoughby brewing,american amber red ale,4.90,willoughby american amber ale,willoughby brewing co .,amber ale,5.50
+79,79,1842,737,1,heatwave red ale,la quinta brewing co .,american amber red ale,6.00,la quinta brewing co . heatwave red ale,la quinta brewing co .,amber ale,6
+87,87,4063,2331,1,thomas hooker old marley barleywine,thomas hooker brewing company,american barleywine,10.00,thomas hooker old marley barleywine,thomas hooker brewing company,barley wine,10
+88,88,4161,2409,1,centurion barleywine ale,golden city brewery,american barleywine,,golden city centurion barleywine ale,golden city brewery,barley wine,11.20
+89,89,862,2906,1,red ale priprioca,cervejaria amazonia ltda,american amber red ale,6.00,amazon beer priprioca red ale,amazon beer,amber ale,6
+90,90,2242,1048,1,big red balls,hillcrest brewing company,american amber red ale,8.00,hillcrest big red balls,hillcrest brewing company,imperial ipa,8

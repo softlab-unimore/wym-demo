@@ -1,0 +1,287 @@
+<html>
+        <head>
+            <style>
+            
+                #first_row {
+                    border-radius: 15px 15px 0px 0px;
+                    border: 2px solid black;
+                }
+                
+                #first_row th {
+                    border: 2px solid black;
+                }
+                
+                #first_row th:first-child{
+                    border-radius: 15px 0 0 0;
+                }
+                
+                #first_row th:last-child{
+                    border-radius: 0 15px 0 0;
+                }
+                                
+                table, tr, td, th {
+                    text-align: center;
+                    border-collapse: collapse;
+                }
+                
+                tr, td, th{
+                    border: 1px solid gray;
+                }
+                
+                table{
+                    border: 3px solid black;
+                    border-radius: 15px 15px 15px 15px;
+                    min-width: 100%;
+                }
+                
+                #container{
+                    margin: 0 auto;
+                    min-width: 80%;
+                }
+                
+                td {
+                    padding: 10px;
+                }
+                
+                table tbody tr:last-child{
+                    border-bottom: 2px solid black;
+                }
+                
+                del {
+                    color: red;
+                }
+                
+                .tr2 {
+                    border-bottom: 2px solid black;
+                }
+                
+                .tr1 {
+                    border-top: 2px solid black;
+                }
+                
+                .pred {
+                    border: 2px solid black;
+                }
+                
+                tr.entity1 tr.entity2 {
+                    border-left: 2px solid black;
+                }
+                
+                html{
+                    font-family: Arial, sans-serif;
+                }
+                
+            </style>
+        </head>
+        <body><span id="container"><table>
+            <tr id="first_row">
+                <th></th>
+                <th>Match</th>
+                <th>Prediction</th>
+                <th>Non-Match</th>
+                <th>New Prediction</th>
+            </tr>
+        
+                <tr class='tr1'>
+                    <td class='entity1'>
+                        Entity 1
+                    </td>
+                    <td class='left_entity1'>
+                        <font color="#4c72b0">jazz beer tarraco amber</font> <font color="#dd8452">tarraco beer</font> <font color="#55a868">american amber red ale</font> <font color="#c44e52">6.90</font>
+                    </td>
+                    <td class="pred" rowspan=2>
+            99.65%
+                    </td>
+                    <td class='right_entity1'>
+                        <font color="#4c72b0">jazz beer tarraco amber</font> <font color="#dd8452">tarraco beer</font> <font color="#55a868">american amber red ale</font> <font color="#c44e52">6.90</font> 
+                    </td>
+                    <td class="pred" rowspan=2>
+            31.49%
+                    </td>
+                </tr>
+                <tr class='tr2'>
+                    <td class='entity2'>
+                        Entity 2
+                    </td>
+                    <td class='left_entity2'>
+                        <font color="#4c72b0">jazz beer tarraco amber</font> <font color="#dd8452">ca laarenys cervezas guineu</font> <font color="#55a868">amber ale</font> <font color="#c44e52">6.90</font>
+                    </td>
+                    <td class='right_entity2'>
+                        <font color="#4c72b0">jazz beer tarraco amber</font> <font color="#dd8452">ca laarenys cervezas guineu</font> <font color="#55a868">amber ale</font> <font color="#c44e52">6.90</font>
+                    </td>
+                </tr>
+            
+                <tr class='tr1'>
+                    <td class='entity1'>
+                        Entity 1
+                    </td>
+                    <td class='left_entity1'>
+                        <font color="#4c72b0">amber waves ale</font> <font color="#dd8452">capitol city brewing</font> <font color="#55a868">american amber red ale</font> <font color="#c44e52">5.40</font>
+                    </td>
+                    <td class="pred" rowspan=2>
+            99.96%
+                    </td>
+                    <td class='right_entity1'>
+                        <font color="#4c72b0">amber waves ale</font> <font color="#dd8452">capitol city brewing</font> <font color="#55a868">american amber red ale</font> <font color="#c44e52">5.40</font> 
+                    </td>
+                    <td class="pred" rowspan=2>
+            46.28%
+                    </td>
+                </tr>
+                <tr class='tr2'>
+                    <td class='entity2'>
+                        Entity 2
+                    </td>
+                    <td class='left_entity2'>
+                        <font color="#4c72b0">capitol city amber waves ale</font> <font color="#dd8452">capitol city brewing company</font> <font color="#55a868">amber ale</font> <font color="#c44e52">5.60</font>
+                    </td>
+                    <td class='right_entity2'>
+                        <font color="#4c72b0">capitol city amber waves ale</font> <font color="#dd8452">capitol city brewing company</font> <font color="#55a868">amber ale</font> <font color="#c44e52">5.60</font>
+                    </td>
+                </tr>
+            
+                <tr class='tr1'>
+                    <td class='entity1'>
+                        Entity 1
+                    </td>
+                    <td class='left_entity1'>
+                        <font color="#4c72b0">red rocket amber ale</font> <font color="#dd8452">third base sports bar brewery</font> <font color="#55a868">american amber red ale</font> <font color="#c44e52">6.40</font>
+                    </td>
+                    <td class="pred" rowspan=2>
+            99.82%
+                    </td>
+                    <td class='right_entity1'>
+                        <font color="#4c72b0">red rocket amber ale</font> <font color="#dd8452">third base sports bar brewery</font> <font color="#55a868">american amber red ale</font> <font color="#c44e52">6.40</font> 
+                    </td>
+                    <td class="pred" rowspan=2>
+            42.78%
+                    </td>
+                </tr>
+                <tr class='tr2'>
+                    <td class='entity2'>
+                        Entity 2
+                    </td>
+                    <td class='left_entity2'>
+                        <font color="#4c72b0">third base red rocket amber ale</font> <font color="#dd8452">third base sports bar brewery</font> <font color="#55a868">amber ale</font> <font color="#c44e52">4.60</font>
+                    </td>
+                    <td class='right_entity2'>
+                        <font color="#4c72b0">third base red rocket amber ale</font> <font color="#dd8452">third base sports bar brewery</font> <font color="#55a868">amber ale</font> <font color="#c44e52">4.60</font>
+                    </td>
+                </tr>
+            
+                <tr class='tr1'>
+                    <td class='entity1'>
+                        Entity 1
+                    </td>
+                    <td class='left_entity1'>
+                        <font color="#4c72b0">legends of the bay giant 's tomb</font> <font color="#dd8452">hockley valley brewing co .</font> <font color="#55a868">american amber red ale</font> <font color="#c44e52">5.00</font>
+                    </td>
+                    <td class="pred" rowspan=2>
+            94.43%
+                    </td>
+                    <td class='right_entity1'>
+                        <font color="#4c72b0">legends of the bay giant 's tomb</font> <font color="#dd8452">hockley valley brewing co .</font> <font color="#55a868">american amber red ale</font> <font color="#c44e52">5.00</font> 
+                    </td>
+                    <td class="pred" rowspan=2>
+            13.32%
+                    </td>
+                </tr>
+                <tr class='tr2'>
+                    <td class='entity2'>
+                        Entity 2
+                    </td>
+                    <td class='left_entity2'>
+                        <font color="#4c72b0">legends of the bay giantas tomb</font> <font color="#dd8452">hockley valley brewing malting company</font> <font color="#55a868">amber ale</font> <font color="#c44e52">5</font>
+                    </td>
+                    <td class='right_entity2'>
+                        <font color="#4c72b0">legends of the bay giantas tomb</font> <font color="#dd8452">hockley valley brewing malting company</font> <font color="#55a868">amber ale</font> <font color="#c44e52">5</font>
+                    </td>
+                </tr>
+            
+                <tr class='tr1'>
+                    <td class='entity1'>
+                        Entity 1
+                    </td>
+                    <td class='left_entity1'>
+                        <font color="#4c72b0">willoughby american amber ale</font> <font color="#dd8452">willoughby brewing</font> <font color="#55a868">american amber red ale</font> <font color="#c44e52">4.90</font>
+                    </td>
+                    <td class="pred" rowspan=2>
+            99.71%
+                    </td>
+                    <td class='right_entity1'>
+                        <font color="#4c72b0">willoughby american amber ale</font> <font color="#dd8452">willoughby brewing</font> <font color="#55a868">american amber red ale</font> <font color="#c44e52">4.90</font> 
+                    </td>
+                    <td class="pred" rowspan=2>
+            45.87%
+                    </td>
+                </tr>
+                <tr class='tr2'>
+                    <td class='entity2'>
+                        Entity 2
+                    </td>
+                    <td class='left_entity2'>
+                        <font color="#4c72b0">willoughby american amber ale</font> <font color="#dd8452">willoughby brewing co .</font> <font color="#55a868">amber ale</font> <font color="#c44e52">5.50</font>
+                    </td>
+                    <td class='right_entity2'>
+                        <font color="#4c72b0">willoughby american amber ale</font> <font color="#dd8452">willoughby brewing co .</font> <font color="#55a868">amber ale</font> <font color="#c44e52">5.50</font>
+                    </td>
+                </tr>
+            
+                <tr class='tr1'>
+                    <td class='entity1'>
+                        Entity 1
+                    </td>
+                    <td class='left_entity1'>
+                        <font color="#4c72b0">heatwave red ale</font> <font color="#dd8452">la quinta brewing co .</font> <font color="#55a868">american amber red ale</font> <font color="#c44e52">6.00</font>
+                    </td>
+                    <td class="pred" rowspan=2>
+            97.98%
+                    </td>
+                    <td class='right_entity1'>
+                        <font color="#4c72b0">heatwave red ale</font> <font color="#dd8452">la quinta brewing co .</font> <font color="#55a868">american amber red ale</font> <font color="#c44e52">6.00</font> 
+                    </td>
+                    <td class="pred" rowspan=2>
+            25.11%
+                    </td>
+                </tr>
+                <tr class='tr2'>
+                    <td class='entity2'>
+                        Entity 2
+                    </td>
+                    <td class='left_entity2'>
+                        <font color="#4c72b0">la quinta brewing co . heatwave red ale</font> <font color="#dd8452">la quinta brewing co .</font> <font color="#55a868">amber ale</font> <font color="#c44e52">6</font>
+                    </td>
+                    <td class='right_entity2'>
+                        <font color="#4c72b0">la quinta brewing co . heatwave red ale</font> <font color="#dd8452">la quinta brewing co .</font> <font color="#55a868">amber ale</font> <font color="#c44e52">6</font>
+                    </td>
+                </tr>
+            
+                <tr class='tr1'>
+                    <td class='entity1'>
+                        Entity 1
+                    </td>
+                    <td class='left_entity1'>
+                        <font color="#4c72b0">red ale priprioca</font> <font color="#dd8452">cervejaria amazonia ltda</font> <font color="#55a868">american amber red ale</font> <font color="#c44e52">6.00</font>
+                    </td>
+                    <td class="pred" rowspan=2>
+            74.03%
+                    </td>
+                    <td class='right_entity1'>
+                        <font color="#4c72b0">red ale priprioca</font> <font color="#dd8452">cervejaria amazonia ltda</font> <font color="#55a868">american amber red ale</font> <font color="#c44e52">6.00</font> 
+                    </td>
+                    <td class="pred" rowspan=2>
+            2.21%
+                    </td>
+                </tr>
+                <tr class='tr2'>
+                    <td class='entity2'>
+                        Entity 2
+                    </td>
+                    <td class='left_entity2'>
+                        <font color="#4c72b0">amazon beer priprioca red ale</font> <font color="#dd8452">amazon beer</font> <font color="#55a868">amber ale</font> <font color="#c44e52">6</font>
+                    </td>
+                    <td class='right_entity2'>
+                        <font color="#4c72b0">amazon beer priprioca red ale</font> <font color="#dd8452">amazon beer</font> <font color="#55a868">amber ale</font> <font color="#c44e52">6</font>
+                    </td>
+                </tr>
+            </table></span></body></html>
